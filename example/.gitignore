@@ -1,0 +1,6 @@
+# Compiled JS
+dist
+
+# TypeScript definition files
+src/**/*.d.ts
+src/types-ti.ts

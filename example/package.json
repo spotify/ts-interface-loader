@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "name": "ts-interface-loader-example",
+  "description": "Example project for ts-interface-loader",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "webpack --mode=development",
+    "watch": "webpack --mode=development --watch",
+    "cli": "webpack --mode=production --silent && node dist/bundle.js",
+    "test:ci": "jest",
+    "test": "jest --watch"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/jest": "^24.0.11",
+    "babel-jest": "^24.5.0",
+    "jest": "^24.5.0",
+    "ts-interface-loader": "^1.0.0",
+    "ts-loader": "^5.3.3",
+    "tslint-loader": "^3.5.4",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "dependencies": {
+    "ts-interface-checker": "^0.1.7"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "films": [
+    {
+      "name": "The Beginning, Part I",
+      "countries": [
+        {
+          "countryCode": "GB",
+          "countryInternationalName": {
+            "invalidSubkey": 1234
+          }
+        }
+      ]
+    }
+  ]
+}

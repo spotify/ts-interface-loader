@@ -1,0 +1,28 @@
+{
+  "name": "ts-interface-loader",
+  "description": "Webpack support for validating TypeScript definitions at runtime.",
+  "license": "Apache-2.0",
+  "version": "1.0.0",
+  "keywords": [
+    "typescript",
+    "webpack",
+    "typechecking",
+    "webpack-loader",
+    "types",
+    "ts-interface-builder"
+  ],
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "dependencies": {
+    "buble": "^0.19.7",
+    "loader-utils": "^1.2.3",
+    "ts-interface-builder": "^0.1.8"
+  },
+  "devDependencies": {
+    "@types/buble": "^0.19.2",
+    "@types/loader-utils": "^1.1.3"
+  },
+  "scripts": {
+    "build": "tsc src/*.ts --skipLibCheck"
+  }
+}

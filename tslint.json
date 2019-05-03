@@ -1,0 +1,9 @@
+{
+  "extends": ["tslint:latest", "tslint-config-prettier"],
+  "rules": {
+    "no-console": false,
+    "max-classes-per-file": [false, 10],
+    "no-submodule-imports": [true, "ts-interface-loader!."],
+    "no-implicit-dependencies": [true, "dev"]
+  }
+}
