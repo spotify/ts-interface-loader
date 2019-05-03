@@ -10,4 +10,5 @@ module.exports = {
   transform: {
     '^.+\\.ts$': 'babel-jest',
   },
+  collectCoverage: true
 }
