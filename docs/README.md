@@ -16,7 +16,7 @@ Common use cases:
 
 ## Intro
 
-By design, TypeScript only provides typechecking at runtime. However it is possible to do so at runtime through [`ts-interface-builder`][ts-interface-builder] generating a JSON manifest of your definitions and [`ts-interface-checker`][ts-interface-checker] for validating those types with plain JSON / JavaScript objects.
+By design, TypeScript only provides typechecking at compile time. However it is possible to do so at runtime through [`ts-interface-builder`][ts-interface-builder] generating a JSON manifest of your definitions and [`ts-interface-checker`][ts-interface-checker] for validating those types with plain JSON / JavaScript objects.
 
 In our case, we wanted to build the manifest automatically through Webpack. Welcome `ts-interface-loader`!
 
