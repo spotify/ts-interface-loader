@@ -132,6 +132,7 @@ $ yarn test
 Fixed security bugs with:
 - `mixin-deep` by bumping from `1.3.1` to `1.3.2`
 - `set-value` by bumping from `2.0.0` to `2.0.1`
+- `serialize-javascript` by bumping from `1.4.0` to `2.1.1`
 
 ### v1.0.1
 
