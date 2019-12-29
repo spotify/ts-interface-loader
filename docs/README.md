@@ -130,11 +130,12 @@ $ yarn test
 ### v1.0.2
 
 Fixed security bugs with:
-- `mixin-deep` by bumping to `1.3.2`
+- `mixin-deep` by bumping from `1.3.1` to `1.3.2`
+- `set-value` by bumping from `2.0.0` to `2.0.1`
 
 ### v1.0.1
 
-Fixed security bug with `handlebars` by bumping to `4.5.3`
+Fixed security bug with `handlebars` by bumping from `4.1.2` to `4.5.3`
 
 ### v1.0.0
 
