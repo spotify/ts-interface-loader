@@ -127,6 +127,11 @@ $ yarn test
 
 ## Changelog
 
+### v1.0.2
+
+Fixed security bugs with:
+- `mixin-deep` by bumping to `1.3.2`
+
 ### v1.0.1
 
 Fixed security bug with `handlebars` by bumping to `4.5.3`
