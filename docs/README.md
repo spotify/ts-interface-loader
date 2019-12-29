@@ -125,6 +125,16 @@ Run the following command
 $ yarn test
 ```
 
+## Changelog
+
+### v1.0.1
+
+Fixed security bug with `handlebars` by bumping to `4.5.3`
+
+### v1.0.0
+
+Initial release
+
 ## Contributing
 
 We strictly adhere to the [Contributor Covenant](../CODE-OF-CONDUCT.md) in this repository, and wish to foster an open source culture that's welcoming and diverse.
