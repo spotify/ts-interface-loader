@@ -2,7 +2,7 @@
   "name": "ts-interface-loader",
   "description": "Webpack support for validating TypeScript definitions at runtime.",
   "license": "Apache-2.0",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "typescript",
     "webpack",
