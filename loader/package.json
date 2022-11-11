@@ -15,7 +15,7 @@
   "types": "src/index.d.ts",
   "dependencies": {
     "buble": "^0.19.7",
-    "loader-utils": "^1.2.3",
+    "loader-utils": "^1.4.1",
     "ts-interface-builder": "^0.1.8"
   },
   "devDependencies": {
